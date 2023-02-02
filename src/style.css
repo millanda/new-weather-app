@@ -5,8 +5,8 @@ body {
 
 h1 {
   color: #645cbb;
-  font-size: 30px;
-  font-weight: 700;
+  font-size: 34px;
+  font-weight: 500;
   line-height: 34px;
   margin-bottom: 0;
 }
@@ -47,6 +47,11 @@ li::first-letter {
   margin-bottom: 20px;
 }
 
+.search-details {
+  text-align: center;
+  margin-top: 20px;
+}
+
 .weather-temperature {
   margin: 0 auto;
   width: 190px;
@@ -75,6 +80,20 @@ li::first-letter {
   position: relative;
   font-size: 19px;
   top: -32px;
+}
+
+.current-weather-description {
+  border-top: 2px solid rgba(100, 92, 187, 0.5);
+  border-bottom: 2px solid rgba(100, 92, 187, 0.5);
+  color: #645cbb;
+  font-size: 15px;
+  font-weight: 100;
+  padding: 7px;
+  margin-top: 15px;
+}
+
+.current-weather-description::first-letter {
+  text-transform: capitalize;
 }
 
 .weather-details {
