@@ -78,8 +78,11 @@ li::first-letter {
 }
 
 .weather-details {
-  margin-top: 30px;
+  margin-top: 120px;
   text-align: center;
+  padding: 7px;
+  border-top: 2px solid rgba(100, 92, 187, 0.5);
+  border-bottom: 2px solid rgba(100, 92, 187, 0.5);
 }
 
 .weather-forecast {
