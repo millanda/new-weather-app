@@ -47,6 +47,11 @@ li::first-letter {
   margin-bottom: 20px;
 }
 
+.search-button {
+  background-color: #645cbb;
+  border: none;
+}
+
 .search-details {
   text-align: center;
   margin-top: 20px;
