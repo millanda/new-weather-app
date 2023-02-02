@@ -41,15 +41,16 @@
             </div>
           </form>
           <div class="overview">
-            <h1 id="city"></h1>
-            <ul>
-              <li>Last updated: <span id="date"></span></li>
-              <li id="current-weather-description">Clear</li>
-            </ul>
-          </div>
-          <div class="row">
-            <div class="col-6">
-              <div class="d-flex weather-temperature">
+            <div class="row">
+              <div class="col-4">
+                <h1 id="city"></h1>
+                <ul>
+                  <li>Last updated: <span id="date"></span></li>
+                  <li id="current-weather-description">Clear</li>
+                </ul>
+              </div>
+            <div class="col-4">
+              <div class="d-flex justify-content-center weather-temperature">
                 <img src="" style="visibility: hidden" id="icon" />
                 <div>
                   <strong id="temperature"></strong
@@ -57,11 +58,13 @@
                 </div>
               </div>
             </div>
-            <div class="col-6">
+            <div class="col-4">
+                <div class="weather-details">
               <ul>
                 <li>Humidity: <span id="humidity"></span>%</li>
                 <li>Wind: <span id="wind"></span> mi/h</li>
               </ul>
+              </div>
             </div>
           </div>
           <div class="weather-forecast" id="forecast"></div>
