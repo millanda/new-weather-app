@@ -1,14 +1,13 @@
 body {
   font-family: "Quicksand", sans-serif;
   background: linear-gradient(#bface2, #ebc7e6);
+  color: #645cbb;
 }
 
 h1 {
-  color: #645cbb;
   font-size: 34px;
   font-weight: 500;
   line-height: 34px;
-  margin-bottom: 0;
 }
 
 ul {
@@ -18,12 +17,9 @@ ul {
 
 li {
   list-style: none;
-  margin: 0;
-  padding: 0;
-  color: #645cbb;
   display: block;
-  font-size: 15px;
-  font-weight: 100;
+  font-size: 16px;
+  font-weight: 200;
   line-height: 19px;
 }
 
@@ -45,14 +41,14 @@ a:hover {
 }
 
 .weather-app {
-  padding: 20px;
+  padding: 20px 15px 10px;
   border: 2px solid rgba(100, 92, 187, 0.5);
   border-radius: 5px;
   box-shadow: 2px 2px 2px rgba(100, 92, 187, 0.2);
 }
 
 .overview {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .form-control {
@@ -75,11 +71,21 @@ a:hover {
   margin-top: 20px;
 }
 
+.current-weather-description {
+  border-top: 2px solid rgba(100, 92, 187, 0.5);
+  border-bottom: 2px solid rgba(100, 92, 187, 0.5);
+  padding: 7px;
+  margin-top: 15px;
+}
+
+.current-weather-description::first-letter {
+  text-transform: capitalize;
+}
+
 .weather-temperature {
   margin: 0 auto;
   width: 190px;
   height: 190px;
-  color: #645cbb;
   background-color: rgba(241, 224, 239, 0.2);
   border-radius: 50%;
   box-shadow: 2px 2px 2px rgba(100, 92, 187, 0.2);
@@ -87,13 +93,12 @@ a:hover {
 }
 
 .weather-temperature img {
-  height: 74px;
-  width: 74px;
+  height: 78px;
+  width: 78px;
   margin-left: -7px;
 }
 
 .weather-temperature strong {
-  /* color: rgb(33, 33, 33); */
   font-size: 64px;
   line-height: 64px;
   font-weight: 400;
@@ -105,20 +110,6 @@ a:hover {
   top: -32px;
 }
 
-.current-weather-description {
-  border-top: 2px solid rgba(100, 92, 187, 0.5);
-  border-bottom: 2px solid rgba(100, 92, 187, 0.5);
-  color: #645cbb;
-  font-size: 15px;
-  font-weight: 100;
-  padding: 7px;
-  margin-top: 15px;
-}
-
-.current-weather-description::first-letter {
-  text-transform: capitalize;
-}
-
 .weather-details {
   margin-top: 120px;
   text-align: center;
@@ -128,28 +119,28 @@ a:hover {
 }
 
 .weather-forecast {
-  margin-top: 20px;
+  margin-top: 25px;
   padding: 15px 0px;
   text-align: center;
-  color: #645cbb;
   background-color: rgba(241, 224, 239, 0.2);
   border-radius: 5px;
   box-shadow: 2px 2px 2px rgba(100, 92, 187, 0.2);
 }
 
 .weather-forecast-date {
-  font-size: 16px;
-  opacity: 0.8;
+  font-size: 17px;
+  opacity: 0.9;
 }
 
 .weather-forecast-temperature-min {
-  opacity: 0.5;
+  opacity: 0.8;
 }
 
 .weather-forecast-temperatures {
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .credits {
   text-align: center;
+  color: #000;
 }
