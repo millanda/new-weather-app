@@ -72,3 +72,7 @@ li::first-letter {
   color: rgb(33, 33, 33);
   cursor: default;
 }
+
+.credits {
+  text-align: center;
+}
