@@ -60,6 +60,12 @@ a:hover {
   border: none;
 }
 
+.search-button:hover {
+  background-color: #fff;
+  color: #645cbb;
+  border: 2px solid #645cbb;
+}
+
 .search-details {
   text-align: center;
   margin-top: 20px;
